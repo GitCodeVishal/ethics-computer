@@ -1,13 +1,23 @@
 /* Venues.css */
 .venues-container {
-  background: linear-gradient(to bottom, #9f5c9d, rgb(159,92,157));
+  background: linear-gradient(to bottom, #5a0c97, rgb(159,92,157));
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .transparent-box {
   background-color: rgba(255, 255, 255, 0.3);
   padding: 20px;
   border-radius: 10px; /* Add border radius */
+  margin-top: 20px;
+}
+
+.venues-container p {
+  font-size: 1.85rem; /* Adjust the font size as needed */
+  color: white;
 }
 
 .venue-box {

@@ -10,10 +10,15 @@
   .title {
     margin: 0;
   }
+
+  .Bash{
+    color: #5a0c97;
+  }
   
-  .social-icons {
+  .social-icons-header {
     display: flex;
     gap: 10px;
+    
   }
 
   
@@ -35,6 +40,13 @@
   .footer-top h2 {
     font-size: 1.7rem;
     margin-bottom: 10px;
+  }
+
+  .social-icons-footer {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: 30px;
   }
   
   /* Style for the footer sections in the footer-center */

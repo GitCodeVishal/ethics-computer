@@ -9,8 +9,8 @@ const Layout = () => {
     return (
         <div>
             <header className="layout-container">
-                <h1 className="title">Bing n Watch</h1>
-                <div className="social-icons">
+                <h1 className="title">Binge 'n <span className="Bash">Bash</span></h1>
+                <div className="social-icons-header">
                     <YouTubeIcon />
                     <InstagramIcon />
                     <FacebookIcon />
@@ -19,8 +19,8 @@ const Layout = () => {
             <Outlet />
             <footer className="footer">
                 <div className="footer-top">
-                    <h2>Your Title</h2>
-                    <div className="social-icons">
+                    <h2>Binge 'n <span className="Bash">Bash</span></h2>
+                    <div className="social-icons-footer">
                         <InstagramIcon />
                         <YouTubeIcon />
                         <FacebookIcon />

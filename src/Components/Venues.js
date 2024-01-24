@@ -60,8 +60,9 @@ const Venues = () => {
   ];
 
   return (
-    <div className='venues-main'>
+   
       <div className="venues-container">
+        <p>Choose your theater at Hitec city</p>
         <div className="transparent-box">
           {venuesData.map((venue) => (
             <div className="venue-box" key={venue.id}>
@@ -78,10 +79,6 @@ const Venues = () => {
           <button className="centered-button">JOIN WAITLIST</button>
         </div>
       </div>
-      <footer className="footer">
-            
-      </footer>
-    </div>
   );
 };
 
