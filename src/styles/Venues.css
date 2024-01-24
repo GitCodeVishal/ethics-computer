@@ -1,0 +1,108 @@
+/* Venues.css */
+.venues-container {
+  background: linear-gradient(to bottom, #9f5c9d, rgb(159,92,157));
+  padding: 20px;
+}
+
+.transparent-box {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 10px; /* Add border radius */
+}
+
+.venue-box {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 10px; /* Add border radius */
+}
+
+.venue-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+}
+
+.check-slots-link {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 5px; /* Add border radius */
+}
+
+.check-slots-link:hover {
+  background-color: #0056b3;
+}
+
+.venue-box h2 {
+  font-size: 2.25rem;
+  color: #555;
+}
+
+.venue-box h3 {
+  font-size: 1.75rem;
+  color: #555;
+}
+
+.venue-box .availability.green {
+  /* Apply this style if availability is 3 or more */
+  color: #008000; /* Green color, adjust as needed */
+  font-size: 1.85rem;
+}
+
+.venue-box .availability.orange {
+  /* Apply this style if availability is less than 3 */
+  color: #ffa500; /* Orange color, adjust as needed */
+  font-size: 1.85rem;
+}
+
+.check-slots-button {
+  color: white;
+  font-size: 1.65rem;
+  line-height: 1.75rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #5A0C97; /* Purple background color */
+  border-radius: 9999px; /* Adjust border radius as needed */
+  cursor: pointer;
+  text-transform: none;
+}
+
+.check-slots-button:hover {
+  background-color: #4F0B85; /* Darker purple color on hover, adjust as needed */
+}
+
+.capacity {
+  font-size: 1.85rem;
+  color: #9f5c9d; /* Light purple color */
+}
+
+.centered-button {
+  display: block; /* Change from flex to block */
+  margin: 20px auto; /* Add margin to center horizontally */
+  color: white;
+  font-size: 1.65rem;
+  line-height: 1.75rem;
+  padding: 0.5rem 1.5rem;
+  background-color: #5A0C97; /* Purple background color */
+  border-radius: 9999px; /* Adjust border radius as needed */
+  cursor: pointer;
+  text-transform: none;
+}
+
+.centered-button:hover {
+  background-color: #4F0B85; /* Darker purple color on hover, adjust as needed */
+}
+
+
+
+
+
