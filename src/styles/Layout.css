@@ -56,11 +56,17 @@
     width: 100%;
   }
   
-  .footer-section {
+  .footer-section-1 {
     text-align: center;
+    margin-right: auto;
+  }
+
+  .footer-section-2 {
+    text-align: center;
+    margin-left: auto;
   }
   
-  .footer-section h3 {
+  .footer-section-1 h3 , .footer-section-2 h3 {
     margin-bottom: 8px; /* Adjust as needed for spacing between items */
   }
   

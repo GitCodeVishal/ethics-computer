@@ -28,13 +28,13 @@ const Layout = () => {
                 </div>
 
                 <div className="footer-center">
-                    <div className="footer-section">
+                    <div className="footer-section-1">
                         <h3>Home</h3>
                         <h3>Book Now</h3>
                         <h3>Add-ons</h3>
                         <h3>About Us</h3>
                     </div>
-                    <div className="footer-section">
+                    <div className="footer-section-2">
                         <h3>Gallery</h3>
                         <h3>Refund Policy</h3>
                         <h3>Privacy Policy</h3>
