@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import platinum from '../images/platinum.jpg';
 import stellar from '../images/stellar.jpg';
 import carnival from '../images/carnival.jpg';
@@ -61,22 +60,27 @@ const Venues = () => {
   ];
 
   return (
-    <div className="venues-container">
-      <div className="transparent-box">
-        {venuesData.map((venue) => (
-          <div className="venue-box" key={venue.id}>
-            <img src={venue.image} alt={venue.name} />
-            <h2>{venue.name}</h2>
-            <h3>{venue.pricing}</h3>
-            <p className={`availability ${parseInt(venue.availability) >= 3 ? 'green' : 'orange'}`} >
-              {venue.availability}
-            </p>
-            <button className="check-slots-button">Check Slots</button>
-            <p className="capacity">{venue.capacity}</p>
-          </div>
-        ))}
-        <button className="centered-button">JOIN WAITLIST</button>
+    <div className='venues-main'>
+      <div className="venues-container">
+        <div className="transparent-box">
+          {venuesData.map((venue) => (
+            <div className="venue-box" key={venue.id}>
+              <img src={venue.image} alt={venue.name} />
+              <h2>{venue.name}</h2>
+              <h3>{venue.pricing}</h3>
+              <p className={`availability ${parseInt(venue.availability) >= 3 ? 'green' : 'orange'}`} >
+                {venue.availability}
+              </p>
+              <button className="check-slots-button">Check Slots</button>
+              <p className="capacity">{venue.capacity}</p>
+            </div>
+          ))}
+          <button className="centered-button">JOIN WAITLIST</button>
+        </div>
       </div>
+      <footer className="footer">
+            
+      </footer>
     </div>
   );
 };
