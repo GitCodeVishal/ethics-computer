@@ -15,3 +15,65 @@
     display: flex;
     gap: 10px;
   }
+
+  
+.footer {
+    background-color: #f4f4f4; /* Add a background color for better separation */
+    padding: 20px; /* Add padding for spacing inside the footer */
+  
+    /* Center the content in the footer */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-top, .footer-center, .footer-bottom {
+    margin-bottom: 20px; /* Adjust the margin as needed for spacing between sections */
+  }
+  
+  /* Style for the title in the footer-top section */
+  .footer-top h2 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the footer sections in the footer-center */
+  .footer-center {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .footer-section {
+    text-align: center;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 8px; /* Adjust as needed for spacing between items */
+  }
+  
+  /* Style for the contact information in the footer-bottom */
+  .footer-bottom {
+    text-align: center;
+  }
+  
+  .footer-bottom h3 {
+    margin-bottom: 1.45rem;
+  }
+  
+  .footer-bottom ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+  }
+  
+  .footer-bottom li {
+    margin-bottom: 5px; /* Adjust as needed for spacing between items */
+  }
+  
+  /* Style for the copyright text */
+  .footer p {
+    margin-top: 20px; /* Adjust as needed for spacing between the content and copyright */
+    font-size: 14px;
+    color: #777;
+  }
+  
