@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import platinum from '../images/platinum.jpg';
 import stellar from '../images/stellar.jpg';
 import carnival from '../images/carnival.jpg';
@@ -8,6 +9,15 @@ import majestic from '../images/majestic.jpg';
 import '../styles/Venues.css';
 
 const Venues = () => {
+
+    const navigate = useNavigate();
+  
+    const handleCheckSlots = (venueId) => {
+      
+      const dynamicURL = `/venue/${venueId}`;
+      navigate(dynamicURL);
+    };
+
   const venuesData = [
     {
       id: 1,
